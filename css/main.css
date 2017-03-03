@@ -1,0 +1,133 @@
+body {
+	background-color: lightgrey;
+	margin: 0px;
+}
+.wrap {
+	display: flex;
+	
+
+}
+.ui.fluid.action.input {
+	min-width: 550px;
+	padding: 10px;
+	flex-grow: 0;
+	flex-direction: row;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.left {
+	padding-right: 5px;
+	min-width: 280px;
+	background-color: lightgrey;
+	margin-right: 0.5%;
+	margin-left: 0.5%;
+	min-height: 700px;
+
+
+}
+.right {
+	border-left: 1px solid grey;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+
+}
+.ui.card>.content>.header {
+	font-size: 16px;
+}
+
+div.ui.card {
+	margin: 5px 10px;
+	display: inline-block;
+	/*width: 300px;*/
+	width: 23%;
+}
+div.content {
+	width: 100%;
+	height: 110px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.ui.card>.content>.header:not(.ui){
+	font-size: 16px;
+}
+.ui.cards>.card>.content>.header:not(.ui)  {
+	font-size: 16px;
+}
+.ui.card .meta, .ui.cards>.card .meta {
+	font-size: 12px;
+}
+.ui.card>.image>img, .ui.cards>.card>.image>img {
+	height: 250px;
+}
+
+.uiplaylist-close {
+	
+	float: right;
+	color: black;
+}
+.playlistleft {
+	min-width: 100%;
+	height: 70px;
+	font-weight: bold;
+	border: 1px solid grey;
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	}
+.playlist-content {
+	width: 95%;
+	float: left;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.button2 {
+	display: flex;
+	width: 100%;
+}
+.previous {
+	width: 50%;
+}
+.next {
+	width: 50%;
+}
+@media (max-width: 1300px) {
+    div.ui.card {
+	margin: 5px 10px;
+	display: inline-block;
+	/*width: 300px;*/
+	width: 30%;
+    }
+}
+@media (max-width: 1050px) {
+    div.ui.card {
+	margin: 5px 10px;
+	display: inline-block;
+	/*width: 300px;*/
+	width: 30%;
+    }
+}
+@media (max-width: 910px) {
+    div.ui.card {
+	margin: 5px 10px;
+	display: inline-block;
+	/*width: 300px;*/
+	width: 40%;
+    }
+}
+@media (max-width: 720px) {
+    div.ui.card {
+	margin: 5px 10px;
+	display: inline-block;
+	/*width: 300px;*/
+	width: 90%;
+    }
+}
+
+	
+
+
